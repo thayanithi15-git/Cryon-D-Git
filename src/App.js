@@ -12,9 +12,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Offer" element={<Offer />} />
-          <Route path="/Booking" element={<Booking />} />
         </Routes>
       </BrowserRouter>
   );

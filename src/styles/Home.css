@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    background-color: #FFFAF5;
+    font-family: "Roboto", sans-serif;
 }
 .main-page{
     height: 100vh;
@@ -12,7 +14,61 @@
 }
 .body-page
 {
-    background-color: brown;
+/*     background-color: brown; */
     height: 88%;
     width: 100%;
+    /* background-color: aquamarine; */
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000958;
+}
+.header-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.logo-container{
+    width: 15%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    margin-left: 45%;
+    font-size: 2rem;
+}
+.header-icons{
+    display: flex;
+    cursor: pointer;
+}
+.hr-bar{
+    border: 1.5px solid #000958;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-icons{
+    font-size: 16px;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-evenly;
+    width: 23%;
+    cursor: pointer;
+    /* background-color: azure; */
+}
+.end-icons{
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    margin-left: auto;
+    /* margin-right: 0px; */
+    width: 17%;
+    gap: 2rem;
+    /* background-color: bisque; */
+
 }
