@@ -9,6 +9,14 @@
     width: 100vw;
 }
 .header-page{
+    background-color: aquamarine;
+    height: 12%;
+}
+.body-page
+{
+/*     background-color: brown; */
+    height: 88%;
+    width: 100%;
     /* background-color: aquamarine; */
     height: 12%;
     display: flex;
@@ -62,4 +70,5 @@
     width: 17%;
     gap: 2rem;
     /* background-color: bisque; */
+
 }
