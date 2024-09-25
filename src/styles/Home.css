@@ -1,5 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: antiquewhite;
+}
+.main-page{
+    height: 100vh;
+    width: 100vw;
+}
+.header-page{
+    background-color: aquamarine;
+    height: 14%;
 }
