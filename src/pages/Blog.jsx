@@ -19,8 +19,6 @@ export default function Blog() {
     setcolor(index);
   };
 
-
-
   return (
     <div className="Blog-page">
       <div className="Blog-cont">
@@ -28,7 +26,16 @@ export default function Blog() {
           <div className="maphead">
             {Head.map((item, index) => (
               <div key={index} className="buttonheadbox">
-                <button className="buttonhead" style={{ backgroundColor: color === index ? '#000958' : 'initial', color:  color === index ? 'white' : '#000958',  }} onClick={() => handleClick(index)}>{item}</button>
+                <button
+                  className="buttonhead"
+                  style={{
+                    backgroundColor: color === index ? "#000958" : "initial",
+                    color: color === index ? "white" : "#000958",
+                  }}
+                  onClick={() => handleClick(index)}
+                >
+                  {item}
+                </button>
               </div>
             ))}
           </div>
@@ -36,7 +43,6 @@ export default function Blog() {
             <HiAdjustments className="iconrot" />
           </div>
         </div>
-
         <div className="Blog-Mid">
           <div className="midcont">
             <div className="midimg">
@@ -46,7 +52,6 @@ export default function Blog() {
               <div className="img1head">
                 5 Tips on How to Make Your Dog's Fur <br /> Healthy and Shiny
               </div>
-
               <div className="img1vlaue">
                 In this article, you will find advice from top veterinarians on
                 how to make your dog's fur as nice and shiny as a show dog's
@@ -58,7 +63,6 @@ export default function Blog() {
             </div>
           </div>
         </div>
-
         <div className="Blog-Bot">
           <div className="insideBlogbot">
             <div className="botcont1">
@@ -73,7 +77,9 @@ export default function Blog() {
                   Regular exercise is crucial to keep your dog in good
                   condition, so try to incorporate activities like daily walks.
                 </div>
-                <div className="imag2cut" style={{justifyContent:'start'}}>Dr.Peter</div>
+                <div className="imag2cut" style={{ justifyContent: "start" }}>
+                  Dr.Peter
+                </div>
               </div>
             </div>
             <div className="botcont1">
@@ -82,14 +88,11 @@ export default function Blog() {
               </div>
               <div className="image2value">
                 <div className="img2head">
-                Understanding Your
-                Dog's Nutritional Needs
+                  Understanding Your Dog's Nutritional Needs
                 </div>
                 <div className="img2valuehe">
-                Dogs require balanced diet that
-includes protein, so talk to 
-about the best food options and 
-sure to include lot of water.
+                  Dogs require balanced diet that includes protein, so talk to
+                  about the best food options and sure to include lot of water.
                 </div>
                 <div className="imag2cut">Dr.Julian</div>
               </div>
