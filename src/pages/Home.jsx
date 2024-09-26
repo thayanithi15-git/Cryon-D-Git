@@ -30,7 +30,7 @@ export default function Home() {
                   border: "none",
                   width: "90%",
                   padding: "0 20px",
-                  backgroundColor: "transparent",
+                  backgroundColor: "#FDFDFD",
                 }}
               />
             </div>
@@ -55,6 +55,7 @@ export default function Home() {
             style={{
               width: "20%",
               backgroundColor: "orangered",
+              cursor:'pointer',
               color: "#FDFDFD",
               fontWeight: "600",
               border: "none",
