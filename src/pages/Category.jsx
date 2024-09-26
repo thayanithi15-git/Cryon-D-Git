@@ -8,6 +8,7 @@ import Reptiles from "../assets/chameleon.png";
 import Toys from "../assets/toys.png";
 import Balloon from "../assets/balloon.png";
 import "../styles/Category.css";
+import { BsDisplay } from "react-icons/bs";
 
 export default function Category() {
   const Categories = [
@@ -24,17 +25,46 @@ export default function Category() {
   return (
     <div className="category-page">
       <div className="category-contents">
-        <div style={{fontSize: "23px",fontWeight: "550",color: "#000958"}}>Categories</div>
+        <div
+          style={{
+            fontSize: "23px",
+            fontWeight: "550",
+            color: "#000958",
+            marginTop: "3%",
+          }}>
+          Categories
+        </div>
         <div className="grid-box">
           {Categories.map((id) => (
             <div key={id} className="items">
               {/* <div > */}
-                <div className="item-name">{id.name}</div>
-                {/* <div style={{fontSize: "1px"}}></div> */}
-                <img src={id.image} className="item-img" />
+              <div className="item-name">{id.name}</div>
+              {/* <div style={{fontSize: "1px"}}></div> */}
+              <img src={id.image} className="item-img" />
               {/* </div> */}
             </div>
           ))}
+        </div>
+        <div className="category-footer">
+          <div className="logo-container-footer">
+            <i
+              class="fa-solid fa-paw"
+              id="logo"
+              style={{ backgroundColor: "#FDE7CB" }}></i>
+          </div>
+         
+          <div className="footer-main">
+          <marquee style={{ backgroundColor: "#FDE7CB" }}>
+            <div style={{display: "flex",gap: "1rem",backgroundColor: "#FDE7CB"}}>
+            <div style={{ fontWeight: "550",backgroundColor: "#FDE7CB"  }}>Contributed by : </div>
+            {/* <div className="team-names"> */}
+              <div style={{backgroundColor: "#FDE7CB"}}>SELVAPRAVEEN S</div>
+              <div style={{ backgroundColor: "#FDE7CB"  }}>THAYANITHI S</div>
+              <div style={{backgroundColor: "#FDE7CB"  }}>SIVABALAN P</div>
+            </div>
+            </marquee>
+          </div>
+          
         </div>
       </div>
     </div>

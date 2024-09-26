@@ -7,16 +7,17 @@
 }
 .category-contents{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     /* background-color: aquamarine; */
     gap: 2rem;
 }
 .grid-box{
-    height: 65%;
+   
+    height: 60vh;
     width: 58%;
     border-radius: 8px;
     display: grid;
@@ -52,4 +53,39 @@
     width: 6vw;
     margin-top: auto;
     margin-bottom: 10px;
+}
+.category-footer{
+    display: flex;
+    background-color: #FDE7CB;
+    width: 100%;
+    height: 11%;
+}
+.logo-container-footer{
+    background-color: #FDE7CB;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+.footer-main{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDE7CB;
+}
+.footer-title{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    background-color: #FDE7CB;
+}
+.team-names{
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    background-color: #FDE7CB;
 }
