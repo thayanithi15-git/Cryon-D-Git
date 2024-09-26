@@ -12,7 +12,7 @@ import { BsDisplay } from "react-icons/bs";
 
 export default function Category() {
   const Categories = [
-    { name: "Animalss", image: Puppy },
+    { name: "Dog", image: Puppy },
     { name: "Cats", image: Cat },
     { name: "Fish", image: Fish },
     { name: "Birds", image: Bird },
