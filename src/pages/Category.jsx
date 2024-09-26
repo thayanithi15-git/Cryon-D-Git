@@ -35,8 +35,8 @@ export default function Category() {
           Categories
         </div>
         <div className="grid-box">
-          {Categories.map((id) => (
-            <div key={id} className="items">
+          {Categories.map((id,index) => (
+            <div key={index} className="items">
               {/* <div > */}
               <div className="item-name">{id.name}</div>
               {/* <div style={{fontSize: "1px"}}></div> */}

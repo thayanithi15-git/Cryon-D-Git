@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Home.css";
 import logo from "../assets/logo.jpg"
 import { IoSearch } from "react-icons/io5";
@@ -69,14 +69,14 @@ export default function Home() {
       </div>
       <div className="img">
         <div className="imgone">
-          <img src={logo} style={{ height: "100%", width: "100%" }} />
+          <img src={logo} style={{ height: "100%", width: "100%" ,borderRadius:'50px' }} />
         </div>
       </div>
       </div>
       <div className="category-footer">
           <div className="logo-container-footer">
             <i
-              class="fa-solid fa-paw"
+              className="fa-solid fa-paw"
               id="logo"
               style={{ backgroundColor: "#FDE7CB" }}></i>
           </div>
@@ -101,9 +101,9 @@ export default function Home() {
           </div>
           <div className="social-main">
             <div className="social-icons">
-              <i class="fa-brands fa-instagram" style={{backgroundColor: "#FDE7CB"}}></i>
-              <i class="fa-brands fa-twitter"  style={{backgroundColor: "#FDE7CB"}}></i>
-              <i class="fa-brands fa-facebook"  style={{backgroundColor: "#FDE7CB"}}></i>
+              <i className="fa-brands fa-instagram" style={{backgroundColor: "#FDE7CB"}}></i>
+              <i className="fa-brands fa-twitter"  style={{backgroundColor: "#FDE7CB"}}></i>
+              <i className="fa-brands fa-facebook"  style={{backgroundColor: "#FDE7CB"}}></i>
             </div>
           </div>
         </div>
