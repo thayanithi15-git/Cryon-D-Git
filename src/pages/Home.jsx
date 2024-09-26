@@ -6,6 +6,7 @@ import { IoSearch } from "react-icons/io5";
 export default function Home() {
   return (
     <div className="S_one">
+      <div className="hii">
       <div className="Left">
         <div className="S_mypet">
           The best place to bye top quality products for your pet
@@ -71,6 +72,41 @@ export default function Home() {
           <img src={logo} style={{ height: "100%", width: "100%" }} />
         </div>
       </div>
+      </div>
+      <div className="category-footer">
+          <div className="logo-container-footer">
+            <i
+              class="fa-solid fa-paw"
+              id="logo"
+              style={{ backgroundColor: "#FDE7CB" }}></i>
+          </div>
+
+          <div className="footer-main">
+            <marquee style={{ backgroundColor: "#FDE7CB" }}>
+              <div
+                style={{
+                  display: "flex",
+                  gap: "1rem",
+                  backgroundColor: "#FDE7CB",
+                }}>
+                <div style={{ fontWeight: "550", backgroundColor: "#FDE7CB" }}>
+                  Contributed by :{" "}
+                </div>
+                {/* <div className="team-names"> */}
+                <div style={{ backgroundColor: "#FDE7CB" }}>SELVAPRAVEEN S</div>
+                <div style={{ backgroundColor: "#FDE7CB" }}>THAYANITHI S</div>
+                <div style={{ backgroundColor: "#FDE7CB" }}>SIVABALAN P</div>
+              </div>
+            </marquee>
+          </div>
+          <div className="social-main">
+            <div className="social-icons">
+              <i class="fa-brands fa-instagram" style={{backgroundColor: "#FDE7CB"}}></i>
+              <i class="fa-brands fa-twitter"  style={{backgroundColor: "#FDE7CB"}}></i>
+              <i class="fa-brands fa-facebook"  style={{backgroundColor: "#FDE7CB"}}></i>
+            </div>
+          </div>
+        </div>
       
     </div>
   );
