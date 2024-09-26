@@ -12,7 +12,7 @@ import { BsDisplay } from "react-icons/bs";
 
 export default function Category() {
   const Categories = [
-    { name: "Tiger", image: Puppy },
+    { name: "Puppy", image: Puppy },
     { name: "Cats", image: Cat },
     { name: "Fish", image: Fish },
     { name: "Birds", image: Bird },
@@ -40,7 +40,7 @@ export default function Category() {
               {/* <div > */}
               <div className="item-name">{id.name}</div>
               {/* <div style={{fontSize: "1px"}}></div> */}
-              <img src={id.image} className="item-img" />
+              <img src={id.image} className="item-img"/>
               {/* </div> */}
             </div>
           ))}
