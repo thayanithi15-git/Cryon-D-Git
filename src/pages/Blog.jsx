@@ -59,7 +59,7 @@ export default function Blog() {
                 easy tips today.
               </div>
 
-              <div className="image1aut">Dr.August</div>
+              <div className="image1aut">Dr.July</div>
             </div>
           </div>
         </div>
