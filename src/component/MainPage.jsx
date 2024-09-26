@@ -32,7 +32,7 @@ export default function MainPage() {
       <div className="header-page">
         <div className="header-container">
           <div className="logo-container">
-            <i class="fa-solid fa-paw" id="logo"></i>
+            <i className="fa-solid fa-paw" id="logo"></i>
           </div>
           <div className="header-icons">
             <div onClick={handleHome}>HOME</div>
@@ -40,9 +40,9 @@ export default function MainPage() {
             <div onClick={handleBlog}>BLOG</div>
           </div>
           <div className="end-icons">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-            <i class="fa-solid fa-user"></i>
+            <i className="fa-solid fa-magnifying-glass"></i>
+            <i className="fa-solid fa-cart-shopping"></i>
+            <i className="fa-solid fa-user"></i>
           </div>
         </div>
         <hr className="hr-bar"/>
