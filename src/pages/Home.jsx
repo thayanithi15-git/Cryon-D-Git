@@ -11,7 +11,7 @@ export default function Home() {
         <div className="S_mypet">
           The best place to bye top quality products for your pet .
         </div>
-        <div className="ssss">Shop by pet , brand on products on sale!</div>
+        <div className="ssss">Shop by Dog , brand on products on sale!</div>
         <div
           style={{
             display: "flex",
