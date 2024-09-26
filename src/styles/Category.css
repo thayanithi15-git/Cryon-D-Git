@@ -39,6 +39,7 @@
     justify-self: center;
     border-radius: 10px;
     align-items: center;
+    overflow: hidden;
     /* padding: 5%; */
 }
 .item-name{
@@ -50,9 +51,8 @@
 }
 .item-img{
     background-color: #FFF0E1;
-    width: 6vw;
+    width: 9vw;
     margin-top: auto;
-    margin-bottom: 10px;
 }
 .category-footer{
     display: flex;
