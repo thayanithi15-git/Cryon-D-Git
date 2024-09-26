@@ -13,7 +13,7 @@ export default function Blog() {
     "General tips",
   ];
 
-  const [color, setcolor] = useState(2);
+  const [color, setcolor] = useState(1);
 
   const handleClick = (index) => {
     setcolor(index);
@@ -71,8 +71,7 @@ export default function Blog() {
                 </div>
                 <div className="img2valuehe">
                   Regular exercise is crucial to keep your dog in good
-                  condition, so try to incorporate activities like daily walks
-                  and keep the dog engaged.
+                  condition, so try to incorporate activities like daily walks.
                 </div>
                 <div className="imag2cut" style={{justifyContent:'start'}}>Dr.Peter</div>
               </div>
@@ -88,8 +87,8 @@ export default function Blog() {
                 </div>
                 <div className="img2valuehe">
                 Dogs require balanced diet that
-includes protein, so talk to your vet
-about the best food options and ne
+includes protein, so talk to 
+about the best food options and 
 sure to include lot of water.
                 </div>
                 <div className="imag2cut">Dr.Julian</div>
