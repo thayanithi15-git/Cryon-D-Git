@@ -52,19 +52,32 @@ export default function Category() {
               id="logo"
               style={{ backgroundColor: "#FDE7CB" }}></i>
           </div>
-         
+
           <div className="footer-main">
-          <marquee style={{ backgroundColor: "#FDE7CB" }}>
-            <div style={{display: "flex",gap: "1rem",backgroundColor: "#FDE7CB"}}>
-            <div style={{ fontWeight: "550",backgroundColor: "#FDE7CB"  }}>Contributed by : </div>
-            {/* <div className="team-names"> */}
-              <div style={{backgroundColor: "#FDE7CB"}}>SELVAPRAVEEN S</div>
-              <div style={{ backgroundColor: "#FDE7CB"  }}>THAYANITHI S</div>
-              <div style={{backgroundColor: "#FDE7CB"  }}>SIVABALAN P</div>
-            </div>
+            <marquee style={{ backgroundColor: "#FDE7CB" }}>
+              <div
+                style={{
+                  display: "flex",
+                  gap: "1rem",
+                  backgroundColor: "#FDE7CB",
+                }}>
+                <div style={{ fontWeight: "550", backgroundColor: "#FDE7CB" }}>
+                  Contributed by :{" "}
+                </div>
+                {/* <div className="team-names"> */}
+                <div style={{ backgroundColor: "#FDE7CB" }}>SELVAPRAVEEN S</div>
+                <div style={{ backgroundColor: "#FDE7CB" }}>THAYANITHI S</div>
+                <div style={{ backgroundColor: "#FDE7CB" }}>SIVABALAN P</div>
+              </div>
             </marquee>
           </div>
-          
+          <div className="social-main">
+            <div className="social-icons">
+              <i class="fa-brands fa-instagram" style={{backgroundColor: "#FDE7CB"}}></i>
+              <i class="fa-brands fa-twitter"  style={{backgroundColor: "#FDE7CB"}}></i>
+              <i class="fa-brands fa-facebook"  style={{backgroundColor: "#FDE7CB"}}></i>
+            </div>
+          </div>
         </div>
       </div>
     </div>

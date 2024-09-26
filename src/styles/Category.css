@@ -69,14 +69,15 @@
     width: 10%;
 }
 .footer-main{
-    width: 50%;
+    margin-left: 17%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FDE7CB;
 }
 .footer-title{
-    font-size: 13px;
+    /* font-size: 18px; */
     display: flex;
     flex-direction: column;
     gap: 0rem;
@@ -88,4 +89,23 @@
     justify-content: space-evenly;
     gap: 1.5rem;
     background-color: #FDE7CB;
+}
+.social-main{
+    background-color: #FDE7CB;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    /* justify-self: end; */
+    justify-content: end;
+    justify-self: end;
+    align-items: end;
+    align-self: center;
+    gap: 0.3rem;
+}
+.social-icons{
+    background-color: #FDE7CB;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    font-size: 20px;
 }
