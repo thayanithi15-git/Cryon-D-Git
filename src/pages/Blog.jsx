@@ -78,7 +78,7 @@ export default function Blog() {
                   condition, so try to incorporate activities like daily walks.
                 </div>
                 <div className="imag2cut" style={{ justifyContent: "start" }}>
-                  Dr.Peter
+                  Dr.Peter parker
                 </div>
               </div>
             </div>
